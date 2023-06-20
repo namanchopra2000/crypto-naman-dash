@@ -13,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <MainComponent />
       <Routes>
                 <Route index path="/crypto-naman-dash/" Component={MainComponent} ></Route>
                 <Route path="/dashboard" Component={Dashboard}></Route>
