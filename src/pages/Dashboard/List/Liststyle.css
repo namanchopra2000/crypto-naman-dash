@@ -1,0 +1,169 @@
+tr{
+    display: flex;
+    justify-content: space-around;
+    width: 93vw;  
+    margin-right: auto !important;
+    margin-left: auto !important; 
+
+}
+/* .tr-green:hover{
+    background-color: var(--darkgrey);
+    border: solid 2px var(--green);
+    border-radius: 1.2rem;
+    transition: all 0.1s;
+} */
+/* .tr-red:hover{
+    background-color: var(--darkgrey);
+    border: solid 2px var(--red);
+    border-radius: 1.2rem;
+    transition: all 0.1s;
+} */
+tr:hover{
+    background-color: var(--darkgrey);
+    transition: all 0.1s;
+    border-radius: 1.2rem; 
+}
+.wacthlis-list{
+margin-top: 1.4rem;
+}
+td{
+    text-align: left;
+    width: 18%;
+}
+.price-list{
+    margin-top: 2.1rem !important;
+}
+.chip-up-list{
+    margin-top: 1rem;
+}
+.chip-down-list{
+    margin-top: 1rem;
+}
+.lower-detail-list{
+    margin-top: 0.8rem ;
+    font-size: 1.1rem;
+}
+.symbol-price{
+    display: flex;
+   gap:1rem;
+   margin:1rem
+}
+.coin-page-list{
+    width: 95vw;
+}
+.destop-view{
+    display: block;
+}
+.mobile-view{
+    display: none;
+}
+.list-link{
+    text-decoration: none;
+    color: var(--white) !important;
+}
+
+
+
+
+@media (max-width : 1050px){
+    .lower-detail-list{
+        margin-top:1.4rem;
+        font-size: 0.8rem;
+    }
+    .price-list{
+        margin-top:2.2rem;
+        font-size: 1rem;
+    }
+    .chip-up , .chip-down {
+    font-size: 1.4rem !important;
+    }
+    .chip-green{
+        min-width:65px;
+    }
+    .chip-red{
+        min-width:65px;
+    }
+  tr{
+    width: 100vw;
+    margin:1rem;
+  }
+  .destop-view{
+    display: block;
+}
+.mobile-view{
+    display: none;
+}
+
+}
+
+@media (max-width : 850px){
+    .chip-up-list , .chip-down-list {
+    display: none !important;
+}
+tr{
+    width: 100vw;
+    margin:0rem !important;
+  }
+  .destop-view{
+    display: block;
+}
+.mobile-view{
+    display: none;
+}
+}
+@media (max-width : 750px){
+
+    
+    .total-volume{
+        display: none;
+    }
+    .price-list{
+        margin-top:1.8rem;
+        font-size: 0.6rem;
+    }
+
+    .chip-green-list{
+        min-width:12px;
+        max-height: 10px;
+        font-size: 8px;
+        padding: 0.5rem 2rem 0.5rem 1rem;
+        text-align: center;
+    }
+    .chip-red-list{
+        min-width:12px;
+        max-height: 10px;
+        font-size: 8px;
+        padding: 0.5rem 2rem 0.5rem 1rem;
+        text-align: center;
+    }
+    .coin-img-list{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .coin-info-div-list{
+    margin:0rem ;
+
+    }
+    .coin-symbol-list{
+    font-size:0.3rem;
+    }
+    .coin-name-list{
+        font-size:0.5rem;
+    }
+
+    .coin-symbol-name-list{
+        min-width: 3rem ;
+    }
+    .symbol-price-list{
+        max-width: 2rem;
+    }
+    .destop-view{
+        display: none !important;
+    }
+    .mobile-view{
+        display: block;
+        margin-top:1.5rem;
+        font-size: 0.4rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,124 @@
+/* SINGLE COIN DESIGN  */
+.single-coin-div{
+    background-color: var(--darkgrey);
+    width: 300px;
+    height: 300px;
+    border : solid 2px var(--darkgrey);
+    border-radius: 1.2rem;
+}
+/* IF VALUE > 0 THIS STYLE */
+.single-coin-div-green:hover{
+    border : solid 2px var(--green);
+    transition: all 0.3s;
+}
+/* IF VALUE < 0 THIS STYLE */
+.single-coin-div-red:hover{
+    border : solid 2px var(--red);
+    transition: all 0.3s;
+}
+.coin-info-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 1.5rem;
+}
+.coin-img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.coin-symbol-name{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+}
+.coin-symbol{
+    font-size: 1.2rem;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.coin-name{
+    color: var(--grey);
+    text-transform: capitalize;
+    margin-bottom: -1rem;
+    font-weight: normal;
+    font-size: 1rem;
+    margin: 0;
+}
+.chip-div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 1.5rem;
+}
+.chip-green{
+    color: var(--green);
+    border: solid 2px var(--green);
+    text-align: center;
+    border-radius: 1rem;
+    font-weight: 600;
+    min-width: 65px;
+    padding: 0.5rem 1.5rem;
+}
+.chip-green:hover , .chip-up:hover{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+}
+.chip-up{
+    color: var(--green);
+    border: solid 2px var(--green);
+    text-align: center;
+    font-size: 1.8rem !important;
+    padding: 0.35rem;
+    border-radius:100%;
+
+}
+.active-green{
+    background-color: var(--green);
+    color: var(--white);
+    transition: all 0.3s;
+}
+.active-red{
+    background-color: var(--red);
+    color: var(--white) !important;
+}
+.watchlist-button{
+    margin-left: 2rem;
+}
+.chip-down{
+    color: var(--red);
+    border: solid 2px var(--red);
+    text-align: center;
+    font-size: 1.8rem !important;
+    padding: 0.35rem;
+    border-radius:100%;
+}
+.chip-red{
+    color: var(--red);
+    border: solid 2px var(--red);
+    text-align: center;
+    border-radius: 1rem;
+    font-weight: 600;
+    min-width: 65px;
+    padding: 0.5rem 1.5rem;
+}
+.chip-red:hover , .chip-down:hover {
+    background-color: var(--red);
+    color: var(--white);
+    transition: all 0.3s;
+}
+.price{
+    margin:0rem 1.6rem
+}
+.lower-details{
+    font-size: 0.8rem;
+    margin: 0rem 1.6rem;
+    color:var(--grey)
+}
+.grid-link{
+    text-decoration: none;
+    color:var(--white) !important ;
+}

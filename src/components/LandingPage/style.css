@@ -1,0 +1,112 @@
+.flex-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem 0rem 2.5rem;
+    align-items: flex-start;
+}
+.track-heading , .real-heading{
+font-size: 8rem;
+margin: 0;
+}
+
+.track-heading
+{
+    color: var(--white);
+    transition :all 0.5s;
+}
+
+.track-heading:hover{
+    color: var(--black);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--white);
+  transition: all 0.3s ease-out;
+}
+
+.real-heading{
+color: var(--blue);
+}
+.track-text{
+    color: var(--grey);
+}
+
+.landing-page-buttons{
+margin-top: 3rem;
+display: flex;
+justify-content: flex-start;
+gap: 2rem;
+}
+
+.phone{
+    position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 0;
+}
+
+.iphone-img{
+width: 370px;
+position: relative;
+z-index: 10;
+
+}
+.gradient-img{
+    width: 300px;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+
+@media (max-width: 1100px) {
+    .flex-info {
+      
+      justify-content: flex-start;
+      padding : 1.5rem 1.5rem ;
+    }
+
+    .landing-page-buttons{
+        
+        padding : 1.5rem 1.5rem ;
+    }
+  
+    .leftside  {
+      width: 100%;
+    }
+    .track-heading , .real-heading {
+        font-size: 5rem;
+
+    }
+    .phone{
+        margin-top:2rem;
+    }
+    
+  }
+
+@media (max-width: 910px) {
+    .flex-info {
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding : 1.5rem 1.5rem ;
+    }
+
+    .landing-page-buttons{
+        align-items: center;
+        justify-content: center;
+        padding : 1.5rem 1.5rem ;
+    }
+  
+    .leftside  {
+      text-align: center;
+      width: 100%;
+    }
+    .track-heading , .real-heading {
+        font-size: 3.5rem;
+
+    }
+    .phone{
+        margin-top:3rem;
+    }
+
+  }

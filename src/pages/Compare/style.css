@@ -1,0 +1,27 @@
+.selections-compare{
+display: flex;
+justify-content: flex-start;
+gap: 1rem;
+margin: 1rem;
+}
+.compare-page-list-coins{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    /* margin-right: auto; */
+    margin-left: auto;
+    padding: 0;
+}
+.compare-page-list-coinInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
+
+}
+
+.compare-chart{
+    padding: 3rem;
+    }

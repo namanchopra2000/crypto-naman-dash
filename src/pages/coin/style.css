@@ -1,0 +1,50 @@
+.center-area{
+margin-left: auto;
+margin-right: auto;
+margin-top: 2rem;
+margin-bottom: 2rem;
+background-color: var(--darkgrey);
+width: 95vw;
+border-radius: 0.75rem;
+}
+.table{
+    margin-left:auto ;
+    margin-right: auto;
+    background-color: var(--darkgrey);
+    border-radius: 0.75rem;
+}
+
+.days-selection{
+    font-family: "Iter";
+    font-size: 1.8rem;
+    padding : 1rem ;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    }
+    
+    .days-selection{
+        display: flex;
+        justify-content: flex-start;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    span{
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+.toggle-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.chart{
+padding: 1.5rem;
+}
+    @media (max-width:1050px){
+        .days-selection{
+            font-size: 1rem;
+        } 
+    }

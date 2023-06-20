@@ -1,0 +1,14 @@
+.loader{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 16rem;
+}
+.phone-view-for-move-to-top-button{
+    margin-bottom: 2rem;
+}
+@media (max-width : 450px){
+    .phone-view-for-move-to-top-button{
+        margin-bottom:6rem;
+    } 
+}

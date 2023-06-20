@@ -1,0 +1,37 @@
+.coin-info{
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 95vw;
+    background-color: var(--darkgrey);
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+
+}
+.coin-heading{
+    font-family: "Iter";
+    color: var(--white);
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2rem;
+    margin-bottom: 0 !important;
+    padding: 1rem;
+}
+.coin-desription{
+    padding:1rem;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top:0 !important;
+    margin-bottom: 1rem;
+}
+a{
+  color:var(--white);
+  text-decoration:underline;
+}
+a:hover{ 
+    color:var(--blue);
+    text-decoration:none;
+}

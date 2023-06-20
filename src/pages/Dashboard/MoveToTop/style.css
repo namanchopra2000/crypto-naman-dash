@@ -1,0 +1,22 @@
+.move-to-top-btn{
+    display: flex;
+    justify-content: center;
+    color: var(--blue);
+    border: 2px solid var(--blue);
+    width: 3%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    align-items: flex-end;
+    padding: 0.6rem;
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    margin-bottom: 2rem;
+    
+}
+.move-to-top-btn:hover{
+    background-color: var(--blue);
+    color: var(--white);
+    transition: all 0.3s;
+}
