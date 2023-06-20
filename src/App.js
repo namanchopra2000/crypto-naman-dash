@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-                <Route path="/crypto-naman-dash" Component={MainComponent} ></Route>
+                <Route path="/crypto-naman-dash/" Component={MainComponent} ></Route>
                 <Route path="/dashboard" Component={Dashboard}></Route>
                 <Route path="/coin/:id" Component={Coin}></Route>
                 <Route path="/watchlist" Component={Watchlist}></Route>
