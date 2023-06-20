@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/crypto-naman-dash/static/css/main.cc9ba35b.css",
+    "main.js": "/crypto-naman-dash/static/js/main.68c6d152.js",
+    "static/media/iphone.png": "/crypto-naman-dash/static/media/iphone.080029ada53f0cd57453.png",
+    "static/media/gradient.png": "/crypto-naman-dash/static/media/gradient.12a666ed10b3b442b534.png",
+    "index.html": "/crypto-naman-dash/index.html",
+    "main.cc9ba35b.css.map": "/crypto-naman-dash/static/css/main.cc9ba35b.css.map",
+    "main.68c6d152.js.map": "/crypto-naman-dash/static/js/main.68c6d152.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc9ba35b.css",
+    "static/js/main.68c6d152.js"
+  ]
+}
