@@ -10,9 +10,11 @@ import Watchlist from './pages/Watchlist';
 import Coin from  './pages/coin'
 
 function App() {
+  const[darkMode , setDarkMode] = useState(false);
   return (
     <div className="App">
-      <Header />
+      <Header setDarkMode={setDarkMode} darkMode={darkMode}/>
+      <ToastContainer />
       <Routes>
                 <Route index path="/crypto-naman-dash/" Component={MainComponent} ></Route>
                 <Route path="/dashboard" Component={Dashboard}></Route>
