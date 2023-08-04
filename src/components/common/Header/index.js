@@ -6,9 +6,15 @@ import Button from "../Button";
 import { Link, NavLink } from "react-router-dom";
 
 
-const Header = () => {
+
+const Header = ({setDarkMode , darkMode}) => {
     const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
+    function toggleDarkMode(){
+        setDarkMode(!darkMode);
+        const root = document.documentElement;
+        root.classList.toggle('dark');
+    }
     return (
 // navbar
         <nav className="navbar">
@@ -16,14 +22,13 @@ const Header = () => {
                 <NavLink to="/"className="navlink"><h1>CryptoTracker<span id="nav-title-dot">.</span></h1></NavLink>
             </div>
             <div className="nav-links">
-                <Switch {...label} defaultChecked />
+                <Switch {...label} defaultChecked onClick={()=> toggleDarkMode()}  />
                 
                 <Link to="/" className="nav-link">Home</Link>
                 <Link to="/compare" className="nav-link">Compare</Link>
                 <Link to="/watchlist" className="nav-link">Watchlist</Link>
                 <Link to="/dashboard" className="nav-link">
-                <Button text={"Dashboard"} onClick={() => console.log("hey")} />
-
+                <Button text={"Dashboard"} />
                 </Link>
             </div>
     
