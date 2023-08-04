@@ -11,7 +11,7 @@ import filteredSearchData from '../../../functions/filteredSearchData';
 
 
 // recieve api data using props here named coin
-export default function TabsComponent({ coin, searchedCoin }) {
+export default function TabsComponent({ coin, searchedCoin , refresh }) {
 
 
     //this state handles switch between the tabs grid and list
@@ -49,7 +49,7 @@ export default function TabsComponent({ coin, searchedCoin }) {
                           coin &&  coin.map((value, i) => {
                                 return (
                                     // Grid component and pass data of single coin 
-                                    <Grid coin={value} key={i} />)
+                                    <Grid coin={value} key={i} refresh={refresh} />)
                             })
                         )
                         :
@@ -75,7 +75,7 @@ export default function TabsComponent({ coin, searchedCoin }) {
                             coin.map((value, i) => {
                                 return (
                                     // Grid component and pass data of single coin 
-                                    <List coin={value} key={i} />)
+                                    <List coin={value} key={i}   />)
                             })
                         )
                         :
@@ -95,6 +95,14 @@ export default function TabsComponent({ coin, searchedCoin }) {
 
     )
 }
+
+
+
+
+
+
+
+
 
 
 
