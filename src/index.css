@@ -12,6 +12,13 @@
   --red: #f94141;
 
 }
+:root.dark {
+  --white: #111 ;
+  --black:#fff;
+  --darkgrey: #f3f3f3;
+  --grey:#1b1b1b;
+
+}
 
 body {
   
